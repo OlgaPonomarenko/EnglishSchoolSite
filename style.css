@@ -1,0 +1,122 @@
+.forImg {
+	margin-left:10%;
+	margin-right:10%;
+	margin-bottom:10%;
+	position:relative;
+	width: 80%;
+	}
+	
+	h1, h2, h4, h6{
+	text-align: center;
+	color: 	#2F4F4F;
+	}	
+	
+	tr{
+	margin-top: 50px;
+	}
+	
+      body {
+	    background: #F0FFFF;
+        padding-top: 10px;
+        padding-bottom: 30px;
+      }
+	  
+	  .events{
+	margin-top: 50px;	
+	}
+	
+	.groups{	
+	margin-top: 50px;	
+	}
+	
+	.groups p{
+	font-size: 10pt;	
+	}
+	
+	.groups input{
+	border-radius: 20px; 
+	font-weight: bold;
+	background: #F5F5DC;
+	padding: 10px 20px;
+	color: 	#2F4F4F;
+	}
+	
+	.teachers{
+	margin-top: 50px;
+	}
+	
+	.teachers p{
+	text-align:center;
+	}
+	
+	.contacts{
+	margin-top: 50px;
+	}
+	
+	h5{
+	font-weight:bold;
+	color: 	#2F4F4F;
+	}
+	
+		
+	td p{
+	margin-left: 20px;
+	margin-right: 20px;
+	}
+
+      /* Custom container */
+      .container {
+        margin: 0 auto;
+        max-width: 1000px;
+      }
+	  
+	  
+      .container > hr {
+        margin: 60px 0;
+      }
+
+     table{
+	 display: table;
+        width: 100%;
+		
+		
+	 }
+
+      /* Customize the navbar links to be fill the entire space of the .navbar */
+      .navbar .navbar-inner {
+        padding: 0;
+      }
+      .navbar .nav {
+	   
+        margin: 0;
+        display: table;
+        width: 100%;
+		text-align: center;
+		
+		
+      }
+      .navbar .nav li {
+	 
+		border-radius: 20px; /* Скругляем уголки */
+        display: table-cell;
+        width: 1%;
+        float: none;
+		background: #F5F5DC;		
+		padding: 10px 20px;
+		
+      }
+      .navbar .nav li a {
+	    
+        font-weight: bold;
+		color:#808080;
+
+       
+      }
+      .navbar .nav li:first-child a {
+        border-left: 0;
+        border-radius: 3px 0 0 3px;
+      }
+      .navbar .nav li:last-child a {
+        border-right: 0;
+        border-radius: 0 3px 3px 0;
+      }
